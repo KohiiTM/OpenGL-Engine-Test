@@ -51,6 +51,11 @@
             <classifier>natives-${platform.classifier}</classifier>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.joml</groupId>
+            <artifactId>joml</artifactId>
+            <version>1.10.5</version>
+        </dependency>
     </dependencies>
 
     <build>
